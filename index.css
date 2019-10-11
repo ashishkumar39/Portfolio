@@ -5,6 +5,9 @@ ok
     2. top se margin/padding theek krni hai
     3. font add krna h
     4. bs ok.. first wala btata hu baki tu krlegi okare 1st 2nd same hi hai beech me lana to padding add krde ya margin ruk..
+    kya krna h vese ho to gya sb? sb? yhi dihunga logo ko? xD p0urple color? xXD ufff chal tu ja
+    surprise dungi
+    :p 3:kya surprise muje pull req dikh jayegi xD haan haan to pull k rktu kr abi fr ptanikya krti rahgi jldi krke khtm kr ok
 
 */
 
@@ -13,13 +16,42 @@ ok
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  /* border: 1px solid black; */
 }
 
 a{
   text-decoration: none;
 }
+#home{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 
-/*tu krle wo kaam */  
+  align-items: center; 
+}
+.dev-image{
+  background-color: #BCBDC1;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  height: 80%;
+}
+.welcome-text{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+  width: 50%;
+  height: 80%;
+  align-items: center; 
+ color: rgb(33, 56, 90);
+  text-align: center;
+  /*height bhar jari hai kcuh krde */
+}
+
+
 .navbar{
   display: flex;
   justify-content: center;
@@ -41,23 +73,25 @@ a{
 }
 
 .navbar ul li a:hover{
-  color: #800080;
-  border-bottom: 1px solid #800080;
+  color: #BCD9D7;
+  border-bottom: 1px solid #BCD9D7;
   transition: 0.3s;
+}
+
+#p1{
+font-size: 5rem;
 }
 
 section {
   height: 100vh;
 }
-
-section#home {
-  background: purple;
+#home {
+  background: #BCBDC1;
 }
 
-section#about {
-  background: green;
+#about  {
+  background: #446366;
 }
-
-section#contact {
-  background: orange;
+#contact {
+  background: #141518;
 }
