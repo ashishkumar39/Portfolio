@@ -1,7 +1,43 @@
+/* isme bs 3 pages hai unki height set kr rkhi hai 100vh vhi rehne dio or dekh code or kr khud se ok ab kr kcuh or save krlio and FLeEXBOX use krna seekkh mene tere wale me b use kia hai wo b chla ke dekh le ruk.. ab tu clone kr apne wala portfolio and chla use ok chhod abi jldi se isme kcuh change krde abi nav bar bna de fr pull req ka btata hu ok flex flow se kya kia? mujhe lga sari li pr flex lag jaega since inka parent container navbar h muje nahi pta puchra hu main use nahi krta  row se ye line me aa jaenge. abhi 1 column me aare h RUK kcuh frk nhii pda dekhlio bad me kya hota usse exactly. .. also ek property add krke change dekha kr vrna pta kese chlega kis se kya hua..  okkrklek ab  kya hua???? HELLo
+pehle yha likh next task kya hai muje fr smj ayega sah se and w3 me mostly flexbiox nmahi use krte wo exampls e mujse puchle 
+ok
+1. isko beech me lana hai and space boundaries se zyada hona chahie.
+    2. top se margin/padding theek krni hai
+    3. font add krna h
+    4. bs ok.. first wala btata hu baki tu krlegi okare 1st 2nd same hi hai beech me lana to padding add krde ya margin ruk..
+
+*/
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*tu krle wo kaam */  
+.navbar{
+  display: flex;
+  justify-content: center;
+}
+.navbar ul{
+  display: flex;
+  width: 60%;
+  font-size: 24px;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.navbar ul li{
+  margin: 0.5rem 1rem;
+}
+
+.navbar ul li a{
+  color: black;
 }
 
 section {
