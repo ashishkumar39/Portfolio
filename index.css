@@ -1,15 +1,3 @@
-/* isme bs 3 pages hai unki height set kr rkhi hai 100vh vhi rehne dio or dekh code or kr khud se ok ab kr kcuh or save krlio and FLeEXBOX use krna seekkh mene tere wale me b use kia hai wo b chla ke dekh le ruk.. ab tu clone kr apne wala portfolio and chla use ok chhod abi jldi se isme kcuh change krde abi nav bar bna de fr pull req ka btata hu ok flex flow se kya kia? mujhe lga sari li pr flex lag jaega since inka parent container navbar h muje nahi pta puchra hu main use nahi krta  row se ye line me aa jaenge. abhi 1 column me aare h RUK kcuh frk nhii pda dekhlio bad me kya hota usse exactly. .. also ek property add krke change dekha kr vrna pta kese chlega kis se kya hua..  okkrklek ab  kya hua???? HELLo
-pehle yha likh next task kya hai muje fr smj ayega sah se and w3 me mostly flexbiox nmahi use krte wo exampls e mujse puchle 
-ok
-1. isko beech me lana hai and space boundaries se zyada hona chahie.
-    2. top se margin/padding theek krni hai
-    3. font add krna h
-    4. bs ok.. first wala btata hu baki tu krlegi okare 1st 2nd same hi hai beech me lana to padding add krde ya margin ruk..
-    kya krna h vese ho to gya sb? sb? yhi dihunga logo ko? xD p0urple color? xXD ufff chal tu ja
-    surprise dungi
-    :p 3:kya surprise muje pull req dikh jayegi xD haan haan to pull k rktu kr abi fr ptanikya krti rahgi jldi krke khtm kr ok
-
-*/
 
 * {
   margin: 0;
@@ -22,6 +10,22 @@ ok
 a{
   text-decoration: none;
 }
+.centre-title{
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  color: white;
+  
+}
+.centre-text
+{
+    align-content: center;
+    display: flex;
+padding: 30px;
+flex-flow: column;
+font-size: 2rem;
+color: white;}
 #home{
   display: flex;
   flex-direction: row;
